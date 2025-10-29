@@ -1,5 +1,5 @@
 // Populate page from /data JSON files
-const SHARE_PATH = '/booklet2026'; // update if deployed to a different path
+const SHARE_PATH = '/Symposium2026'; // update if deployed to a different path
 
 function setShareUrl(){
   const url = location.origin + SHARE_PATH;
