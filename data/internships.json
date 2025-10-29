@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Self-supervised feature extraction for renal pathology",
+    "supervisors": [
+      "Siemen Brussee",
+      "Jesper Kers"
+    ],
+    "description": "Evaluate SSL feature backbones on renal biopsy WSIs; compare patching strategies and pooling for downstream tasks.",
+    "contact": "pathology@lumc.nl"
+  },
+  {
+    "title": "WSI Similarity Search with Clinical Text Signals",
+    "supervisors": [
+      "LKEB / CAIRELab"
+    ],
+    "description": "Prototype a cross-modal search that retrieves histology slides using radiology or pathology text queries.",
+    "contact": "pathology@lumc.nl"
+  },
+  {
+    "title": "Robust MIL for MF progression",
+    "supervisors": [
+      "Biomedical Data Sciences"
+    ],
+    "description": "Study robustness of MIL pooling to label noise and cohort shift in MF datasets; deliver a reproducible benchmark.",
+    "contact": "pathology@lumc.nl"
+  }
+]

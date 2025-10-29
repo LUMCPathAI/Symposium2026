@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Computational Pathology Symposium – LUMC | Booklet 2026</title>
+  <meta name="description" content="Digital abstract booklet for the LUMC Computational Pathology Symposium (18 March 2026) – program, speakers, projects, and internships." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <h1>Computational Pathology Symposium</h1>
+        <p class="subtitle">Leiden University Medical Center (LUMC)</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#comp-path">Computational Pathology</a>
+        <a href="#program">Program</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#projects">Projects</a>
+        <a href="#internships">Internships</a>
+        <a href="#timeline">Planning</a>
+        <a href="#venue">Venue</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Digital Abstract Booklet – 2026</h2>
+      <p><strong>Date:</strong> Wednesday 18 March 2026 &nbsp;|&nbsp; <strong>Time:</strong> 13:00–18:00 &nbsp;|&nbsp; <strong>Location:</strong> LUMC Pathology Auditorium</p>
+      <div class="cta-row">
+        <a class="btn" href="#program">View Program</a>
+        <a class="btn btn-outline" id="qr-link" href="#" target="_blank" rel="noopener">Get QR Code</a>
+      </div>
+      <p class="small">Share: <span class="mono" id="share-url"></span></p>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h3>About the Group</h3>
+        <p>
+          The Department of Pathology at LUMC advances <em>computational pathology</em> across research and clinical practice.
+          We work at the intersection of pathology, imaging, and data science—developing robust data pipelines, modern
+          machine learning models, and translational applications to improve diagnostics and patient care.
+        </p>
+        <p>
+          This symposium brings together staff from the LUMC Pathology Department, LKEB, CAIRELab, Biomedical Data Sciences,
+          and invited colleagues from LIACS, Technical Medicine, Medicine, and Biomedical Sciences, as well as collaborators
+          from other UMCs.
+        </p>
+      </div>
+    </section>
+
+    <section id="comp-path" class="section alt">
+      <div class="container">
+        <h3>What is Computational Pathology?</h3>
+        <p>
+          Computational pathology applies algorithms to whole-slide images (WSIs), histology patches, and multimodal data.
+          Common approaches include multiple instance learning (MIL), feature extraction with modern backbones, and
+          downstream tasks such as subtype classification, survival analysis, and molecular prediction.
+        </p>
+        <ul class="bullets">
+          <li>Data &amp; Labels: from slide-level outcomes to pixel/region annotations.</li>
+          <li>Scalable Pipelines: acquisition, QC, de-identification, storage, &amp; governance.</li>
+          <li>Modeling: patching, MIL pooling, self-supervised features, and robust evaluation.</li>
+          <li>Clinical Integration: deployment, monitoring, and human-centered implementation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="program" class="section">
+      <div class="container">
+        <h3>Program</h3>
+        <div id="program-grid" class="program-grid"></div>
+        <p class="note">Times are CET. Program may be updated as speakers are confirmed.</p>
+      </div>
+    </section>
+
+    <section id="speakers" class="section alt">
+      <div class="container">
+        <h3>Speakers</h3>
+        <div id="speakers-list" class="card-grid"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h3>Projects &amp; Abstracts</h3>
+        <p>Each project includes a short abstract and optional links to papers, datasets, and code.</p>
+        <div id="projects-list" class="card-grid"></div>
+      </div>
+    </section>
+
+    <section id="internships" class="section alt">
+      <div class="container">
+        <h3>Internship Opportunities</h3>
+        <p>Interested students can contact the listed supervisors directly.</p>
+        <div id="internships-list" class="card-grid"></div>
+      </div>
+    </section>
+
+    <section id="timeline" class="section">
+      <div class="container">
+        <h3>Planning Timeline</h3>
+        <div class="timeline">
+          <div class="tl-item"><span>Dec 2025 – Jan 2026</span>Finalize invitation list</div>
+          <div class="tl-item"><span>Early Jan 2026</span>Send invitations</div>
+          <div class="tl-item"><span>Mid Jan 2026</span>Confirm speakers</div>
+          <div class="tl-item"><span>Feb 2026</span>Collect abstracts &amp; links</div>
+          <div class="tl-item"><span>Late Feb 2026</span>Finalize program &amp; booklet</div>
+          <div class="tl-item"><span>18 March 2026</span>Symposium Day</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="venue" class="section alt">
+      <div class="container">
+        <h3>Venue</h3>
+        <p><strong>LUMC Pathology Auditorium</strong><br/>Leiden University Medical Center (LUMC)</p>
+        <p>Drinks and networking follow the closing remarks.</p>
+        <p class="small">Questions? Contact: <a href="mailto:pathology@lumc.nl">pathology@lumc.nl</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 LUMC Pathology — Computational Pathology Symposium</p>
+      <p class="small">Built with GitHub Pages. <a href="https://github.com/LUMCPathAI" target="_blank" rel="noopener">LUMCPathAI</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

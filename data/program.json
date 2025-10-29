@@ -1,0 +1,87 @@
+[
+  {
+    "time": "13:00 – 13:10",
+    "title": "Opening – Welcome & Objectives",
+    "speakers": "Siemen Brussee"
+  },
+  {
+    "time": "13:10 – 13:35",
+    "title": "Introduction to Computational Pathology – WSIs, patching, MIL, feature extractors, and core tasks (classification, survival, molecular prediction)",
+    "speakers": "Siemen Brussee"
+  },
+  {
+    "time": "13:35 – 14:00",
+    "title": "Dataset Creation: What Does It Take? – Annotation levels, scaling data acquisition, data sharing, regulations, and label reliability",
+    "speakers": "TBD"
+  },
+  {
+    "time": "14:00 – 14:25",
+    "title": "Implementation in Practice: The LUMC AI Pathology Plan – Examples, implementation guidelines, and deployment roadmap",
+    "speakers": "Jesper Kers & Siemen Brussee"
+  },
+  {
+    "time": "14:25 – 14:50",
+    "title": "Bridging Modalities – Integrating histology with (spatial) multi-omics, radiology, and clinical text",
+    "speakers": "TBD"
+  },
+  {
+    "time": "14:50 – 15:15",
+    "title": "Coffee Break",
+    "note": "—"
+  },
+  {
+    "time": "15:15 – 15:25",
+    "title": "Survival Prediction for Glioma",
+    "speakers": "Daniel den Heijer / Niek Maas"
+  },
+  {
+    "time": "15:25 – 15:35",
+    "title": "Endometrial Recurrence / Mutation Prediction",
+    "speakers": "Nikki van den Berg"
+  },
+  {
+    "time": "15:35 – 15:45",
+    "title": "Multimodal MF Prediction",
+    "speakers": "Siemen Brussee"
+  },
+  {
+    "time": "15:45 – 15:55",
+    "title": "MF Progression Study",
+    "speakers": "Pieter Valkema"
+  },
+  {
+    "time": "15:55 – 16:05",
+    "title": "BanffNet",
+    "speakers": "Giorgio Buzzanca"
+  },
+  {
+    "time": "16:05 – 16:15",
+    "title": "MF-BID MIL",
+    "speakers": "Thom Doeleman"
+  },
+  {
+    "time": "16:15 – 16:25",
+    "title": "Similar Image Search for Salivary Gland Pathology",
+    "speakers": "Jurre Weijer"
+  },
+  {
+    "time": "16:25 – 16:35",
+    "title": "Open Slot #1 (TBD – late addition / invited talk)",
+    "speakers": "TBD"
+  },
+  {
+    "time": "16:35 – 16:45",
+    "title": "Open Slot #2 (TBD – late addition / invited talk)",
+    "speakers": "TBD"
+  },
+  {
+    "time": "16:45 – 16:50",
+    "title": "Closing Remarks – Highlights & Future Opportunities",
+    "speakers": "Siemen Brussee"
+  },
+  {
+    "time": "16:50 – 18:00",
+    "title": "Networking & Social",
+    "note": "Drinks & Informal Networking – Meet speakers, collaborators, and students"
+  }
+]
