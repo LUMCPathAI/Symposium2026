@@ -1,27 +1,48 @@
 [
   {
-    "title": "Self-supervised feature extraction for renal pathology",
+    "title": "Domain adaptation for increased generalizability in Mycosis Fungoides classification",
     "supervisors": [
       "Siemen Brussee",
-      "Jesper Kers"
     ],
-    "description": "Evaluate SSL feature backbones on renal biopsy WSIs; compare patching strategies and pooling for downstream tasks.",
-    "contact": "pathology@lumc.nl"
+    "description": "Generalization to new domains (e.g. hospital settings) remains a considerable challenge slowing deployment of AI methodologies in pathology.
+    Our team developed Multiple Instance Learning models for differentiating between mycosis fungoides and benign inflammatory dermatoses using whole slide imaging data.
+    Unfortunately, iagnosis of Mycosis Fungoides has no strict guidelines / diagnostic thresholds causing domain shift across hospitals and thus decreased model performance.
+    This project aims to use domain adaptation techniques to estimate if we can mitigate these shifts (e.g. using center-specific re-calibration) or through methods that take into account label instability during
+    model training.
+    ",
+    "contact": "s.brussee@lumc.nl"
   },
   {
-    "title": "WSI Similarity Search with Clinical Text Signals",
-    "supervisors": [
-      "LKEB / CAIRELab"
-    ],
-    "description": "Prototype a cross-modal search that retrieves histology slides using radiology or pathology text queries.",
-    "contact": "pathology@lumc.nl"
-  },
+    "title": "Residual Learning on Top of Pathology Foundation Models for Rare Domains",
+    "supervisors" : [
+      "Siemen Brussee"
+    ]
+    "description": "Foundation models in pathology (e.g., UNI, Virchow2, Conch) have been pretrained on vast datasets of common diseases.
+However, these models often fail to represent rare or atypical tissue morphologies, which are crucial for diagnosis but absent from large pretraining corpora.
+Retraining or finetuning such models is computationally infeasible for most research groups.
+This project explores a lightweight adaptation strategy: training a small residual learner that processes raw histology tiles alongside frozen foundation model features, learning only the new, domain-specific information missing from the pretrained model.
+We will study how to:
+- Enforce that the residual captures complementary (not redundant) features.
+- Identify tiles or regions that the foundation model likely hasn’t seen.
+- Demonstrate improved performance and interpretability on rare disease domains using minimal compute.
+- The outcome will be a cheap, effective method for extending foundation models to underrepresented pathological conditions—making advanced AI tools more accessible and adaptable in biomedical research.",
+    "contact" : "s.brussee@lumc.nl"
   {
-    "title": "Robust MIL for MF progression",
-    "supervisors": [
-      "Biomedical Data Sciences"
-    ],
-    "description": "Study robustness of MIL pooling to label noise and cohort shift in MF datasets; deliver a reproducible benchmark.",
-    "contact": "pathology@lumc.nl"
+  "title" : "High-specificity triaging of common salivary gland tumors",
+    "supervisors" : [ "Jurre Weijer"],
+    "description" : "",
+    "contact" : ""
   }
+  {
+  "title" : "Developing a generalizable artifact detection pipeline for multicenter histopathology data",
+    "supervisors" : [ "Jurre Weijer"],
+    "description" : "",
+    "contact" : ""
+  }
+{
+  "title": "Refine risk stratification and therapy response prediction in lung cancer",
+  "supervisors" : ["Tobias Martinot"],
+  "description: "",
+  "contact" " ""
+}
 ]
