@@ -45,7 +45,11 @@
     "speakers": [
       "Thom Doeleman"
     ],
-    "abstract": "<em>(Add 1-page abstract here.)</em>",
+    "abstract": "<em>Introduction: Diagnosing early-stage mycosis fungoides (eMF; stages IA-IIA) remains challenging due to clinical and histopathological overlap with benign inflammatory dermatoses (BIDs), underscoring the potential for AI-assisted classification.
+Material and Methods: We trained deep-learning (DL) models using 2,315 H&E-stained whole-slide images (WSIs) from the Leiden University Medical Centre, including 633 WSIs from 317 MF patients and 1,682 WSIs from 1,446 BID patients, diagnosed between Jan 2010 and July 2024. MF diagnoses were established by expert clinicopathological consensus. External validation used 615 WSIs from the Cutaneous Lymphoma International Digital Pathology (CLIDIPA) Registry, obtained from 5 European centres: Utrecht (n=243), Zurich (n=210), Würzburg (n=29), Turin (n=48), and Minden (n=85). To benchmark model performance, eleven (dermato-)pathologists independently reviewed a selected subset of 175 cases using a 5-point scale reflecting diagnostic inclination and uncertainty.
+Results: DL models achieved a mean AUC of 0.841 (range: 0.752-0.914) across external datasets, modestly lower than internal validation (mean AUC 0.948). On the subset of 175 cases, the mean AUC among the 11 pathologists was 0.785 (range: 0.709-0.844), while the ensemble model achieved 0.809. AI demonstrated high and consistent confidence in identifying MF, while pathologists exhibited greater diagnostic variability and uncertainty for MF cases, particularly compared to their high consensus on BIDs.
+Conclusions: Our models demonstrated moderate-to-strong generalizability to distinguish eMF and BIDs, with performance comparable to practicing (dermato-)pathologists under controlled, H&E slide-only conditions. Variability across centres suggests a need for calibration. Future work should explore multimodal integration and reader studies in realistic diagnostic settings to enhance reliability and clinical relevance.
+</em>",
     "links": []
   },
   {
