@@ -1,87 +1,57 @@
 [
   {
-    "time": "13:00 – 13:10",
+    "time": "15:00 – 15:05",
     "title": "Opening – Welcome & Objectives",
     "speakers": "Siemen Brussee"
   },
   {
-    "time": "13:10 – 13:35",
-    "title": "Introduction to Computational Pathology – WSIs, patching, MIL, feature extractors, and core tasks (classification, survival, molecular prediction)",
+    "time": "15:05 – 15:20",
+    "title": "Introduction to (Computational) Pathology – Introduction to pathology, the role of data and AI in pathology, and an introduction to WSIs and digital pathology",
+    "speakers": "T.B.D."
+  },
+  {
+    "time": "15:20 – 15:40",
+    "title": "Image Processing in Pathology – MIL, segmentation, self-supervised learning, and foundation models",
+    "speakers": "Giorgio Buzzanca",
+    "note": "Target: LKEB"
+  },
+  {
+    "time": "15:40 – 15:50",
+    "title": "NLP in Pathology – Report standardization, NER, document classification, section segmentation, and mapping reports to image space",
+    "speakers": "Tobias Martinot",
+    "note": "Target: Biomedical Data Science, CAIRELab"
+  },
+  {
+    "time": "15:50 – 16:00",
+    "title": "Prediction Models & Clinical Decision Making – Outcome prediction, risk stratification, Bayesian reasoning, and biostatistics",
+    "speakers": "Jesper Kers",
+    "note": "Target: Epidemiology, Data Analytics, Biomedical decision-making"
+  },
+  {
+    "time": "16:00 – 16:20",
+    "title": "Omics Modeling in Pathology – Molecular diagnostics, biomarker discovery, NGS, spatial omics, RNA-seq, and single-cell",
+    "speakers": "Jessica Roelands",
+    "note": "Target: Human genetics, Molecular epidemiology"
+  },
+  {
+    "time": "16:20 – 16:35",
+    "title": "Multimodal Modeling in Pathology – Alignment with reports, omics, radiology, dermatology, and multimodal foundation models",
     "speakers": "Siemen Brussee"
   },
   {
-    "time": "13:35 – 14:00",
-    "title": "Dataset Creation: What Does It Take? – Annotation levels, scaling data acquisition, data sharing, regulations, and label reliability",
-    "speakers": "TBD"
-  },
-  {
-    "time": "14:00 – 14:25",
+    "time": "16:35 – 16:55",
     "title": "Implementation in Practice: The LUMC AI Pathology Plan – Examples, implementation guidelines, and deployment roadmap",
-    "speakers": "Jesper Kers & Siemen Brussee"
+    "speakers": "Jesper Kers & Siemen Brussee",
+    "note": "Target: CAIRELab, Radiology implementation unit"
   },
   {
-    "time": "14:25 – 14:50",
-    "title": "Bridging Modalities – Integrating histology with (spatial) multi-omics, radiology, and clinical text",
-    "speakers": "TBD"
-  },
-  {
-    "time": "14:50 – 15:15",
-    "title": "Coffee Break",
-    "note": "—"
-  },
-  {
-    "time": "15:15 – 15:25",
-    "title": "Survival Prediction for Glioma",
-    "speakers": "Daniel den Heijer / Niek Maas"
-  },
-  {
-    "time": "15:25 – 15:35",
-    "title": "Endometrial Recurrence / Mutation Prediction",
-    "speakers": "Nikki van den Berg"
-  },
-  {
-    "time": "15:35 – 15:45",
-    "title": "Multimodal MF Prediction",
+    "time": "16:55 – 17:00",
+    "title": "Closing",
     "speakers": "Siemen Brussee"
   },
   {
-    "time": "15:45 – 15:55",
-    "title": "MF Progression Study",
-    "speakers": "Pieter Valkema"
-  },
-  {
-    "time": "15:55 – 16:05",
-    "title": "BanffNet",
-    "speakers": "Giorgio Buzzanca"
-  },
-  {
-    "time": "16:05 – 16:15",
-    "title": "MF-BID MIL",
-    "speakers": "Thom Doeleman"
-  },
-  {
-    "time": "16:15 – 16:25",
-    "title": "Similar Image Search for Salivary Gland Pathology",
-    "speakers": "Jurre Weijer"
-  },
-  {
-    "time": "16:25 – 16:35",
-    "title": "Open Slot #1 (TBD – late addition / invited talk)",
-    "speakers": "TBD"
-  },
-  {
-    "time": "16:35 – 16:45",
-    "title": "Open Slot #2 (TBD – late addition / invited talk)",
-    "speakers": "TBD"
-  },
-  {
-    "time": "16:45 – 16:50",
-    "title": "Closing Remarks – Highlights & Future Opportunities",
-    "speakers": "Siemen Brussee"
-  },
-  {
-    "time": "16:50 – 18:00",
+    "time": "17:00 – 18:00",
     "title": "Networking & Social",
-    "note": "Drinks & Informal Networking – Meet speakers, collaborators, and students"
+    "note": "Drinks & informal networking"
   }
 ]

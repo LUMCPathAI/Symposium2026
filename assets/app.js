@@ -102,14 +102,31 @@ function renderInternships(items){
   for(const it of items){
     const card = el('div','card');
     card.appendChild(el('h4','', it.title));
+
     if(it.supervisors && it.supervisors.length){
       card.appendChild(el('div','meta', 'Supervisors: ' + it.supervisors.join(', ')));
     }
-    card.appendChild(el('p','', it.description || ''));
+
+    // Description with paragraph support from "\n\n" in JSON
+    const descWrap = el('div', 'description');
+    const paragraphs = (it.description || '')
+      .split(/\n\s*\n/)
+      .map(s => s.trim())
+      .filter(Boolean);
+
+    for (const txt of paragraphs) {
+      const p = document.createElement('p');
+      p.textContent = txt;
+      descWrap.appendChild(p);
+    }
+
+    card.appendChild(descWrap);
+
     if(it.contact){
       const contact = el('p','small', `Contact: <a href="mailto:${it.contact}">${it.contact}</a>`);
       card.appendChild(contact);
     }
+
     root.appendChild(card);
   }
 }

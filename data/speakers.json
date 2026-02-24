@@ -2,67 +2,43 @@
   {
     "name": "Siemen Brussee",
     "affiliation": "LUMC Pathology",
-    "role": "Opening, Intro, Closing",
+    "role": "Organizer; Multimodal Modeling; Implementation in Practice",
+    "bio": ""
+  },
+  {
+    "name": "Jurre Weijer",
+    "affiliation": "LUMC Pathology",
+    "role": "Organizer",
     "bio": ""
   },
   {
     "name": "Jesper Kers",
     "affiliation": "LUMC Pathology",
-    "role": "Implementation in Practice",
-    "bio": ""
-  },
-  {
-    "name": "Daniel den Heijer",
-    "affiliation": "LUMC",
-    "role": "Project Pitch",
-    "bio": ""
-  },
-  {
-    "name": "Niek Maas",
-    "affiliation": "LUMC",
-    "role": "Project Pitch",
-    "bio": ""
-  },
-  {
-    "name": "Nikki van den Berg",
-    "affiliation": "LUMC",
-    "role": "Project Pitch",
-    "bio": ""
-  },
-  {
-    "name": "Pieter Valkema",
-    "affiliation": "LUMC",
-    "role": "Project Pitch",
+    "role": "Prediction Models & Clinical Decision Making; Implementation in Practice",
     "bio": ""
   },
   {
     "name": "Giorgio Buzzanca",
     "affiliation": "LUMC",
-    "role": "Project Pitch",
+    "role": "Image Processing in Pathology",
     "bio": ""
   },
   {
-    "name": "Thom Doeleman",
+    "name": "Tobias Martinot",
     "affiliation": "LUMC",
-    "role": "Project Pitch",
+    "role": "NLP in Pathology",
     "bio": ""
   },
   {
-    "name": "Jurre Weijer",
+    "name": "Jessica Roelands",
     "affiliation": "LUMC",
-    "role": "Project Pitch",
+    "role": "Omics Modeling in Pathology",
     "bio": ""
   },
   {
-    "name": "TBD Speaker #1",
+    "name": "T.B.D.",
     "affiliation": "—",
-    "role": "Educational Session",
-    "bio": ""
-  },
-  {
-    "name": "TBD Speaker #2",
-    "affiliation": "—",
-    "role": "Educational Session",
+    "role": "Introduction to (Computational) Pathology",
     "bio": ""
   }
 ]

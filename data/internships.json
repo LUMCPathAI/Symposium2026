@@ -14,13 +14,7 @@
   {
     "title": "High-specificity triaging of common salivary gland tumors",
     "supervisors": ["Jurre Weijer"],
-    "description": "",
-    "contact": ""
-  },
-  {
-    "title": "Developing a generalizable artifact detection pipeline for multicenter histopathology data",
-    "supervisors": ["Jurre Weijer"],
-    "description": "",
+    "description": "Deep learning for whole-slide histopathology has shown strong potential in tumor classification, but salivary gland tumors remain a particularly challenging domain because malignant entities are rare, diverse, and often underrepresented in training data. This project focuses on developing a triage-oriented model for salivary gland tumors that first learns a robust, entity-agnostic benign–malignant distinction, with the goal of recognizing malignant behavior even when specific malignant subtypes are scarce or absent during training.\n\nIn parallel, the model will support targeted recognition of common benign salivary gland tumors, especially pleomorphic adenoma (PA) and Warthin tumor, which are highly relevant in routine pathology practice. The broader motivation is to move toward AI-assisted triage strategies that could eventually help flag malignant salivary gland tumors within head and neck resections more generally. The outcome will be a clinically relevant and technically grounded triage framework tailored to a rare and diagnostically challenging pathology domain.",
     "contact": ""
   },
   {
