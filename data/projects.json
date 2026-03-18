@@ -1,56 +1,44 @@
 [
   {
-    "title": "Survival Prediction for Glioma",
-    "speakers": ["Daniel den Heijer", "Niek Maas"],
-    "abstract": "<em>(Add 1-page abstract here.)</em>",
-    "links": []
-  },
-  {
-    "title": "Endometrial Recurrence / Mutation Prediction",
-    "speakers": ["Nikki van den Berg"],
-    "abstract": "<em>(Add 1-page abstract here.)</em>",
-    "links": []
-  },
-  {
     "title": "Multimodal MF Prediction",
-    "speakers": ["Siemen Brussee"],
+    "authors": ["Siemen Brussee"],
     "abstract": "<em>(Add 1-page abstract here.)</em>",
     "links": []
   },
   {
     "title": "MF Progression Study",
-    "speakers": ["Pieter Valkema"],
+    "authors": ["Pieter Valkema"],
     "abstract": "<em>(Add 1-page abstract here.)</em>",
     "links": []
   },
   {
     "title": "BanffNet",
-    "speakers": ["Giorgio Buzzanca"],
+    "authors": ["Giorgio Buzzanca"],
     "abstract": "<em>(Add 1-page abstract here.)</em>",
     "links": []
   },
   {
     "title": "MF-BID MIL",
-    "speakers": ["Thom Doeleman"],
-    "abstract": "<em>Introduction: Diagnosing early-stage mycosis fungoides (eMF; stages IA-IIA) remains challenging due to clinical and histopathological overlap with benign inflammatory dermatoses (BIDs), underscoring the potential for AI-assisted classification.\nMaterial and Methods: We trained deep-learning (DL) models using 2,315 H&amp;E-stained whole-slide images (WSIs) from the Leiden University Medical Centre, including 633 WSIs from 317 MF patients and 1,682 WSIs from 1,446 BID patients, diagnosed between Jan 2010 and July 2024. MF diagnoses were established by expert clinicopathological consensus. External validation used 615 WSIs from the Cutaneous Lymphoma International Digital Pathology (CLIDIPA) Registry, obtained from 5 European centres: Utrecht (n=243), Zurich (n=210), Würzburg (n=29), Turin (n=48), and Minden (n=85). To benchmark model performance, eleven (dermato-)pathologists independently reviewed a selected subset of 175 cases using a 5-point scale reflecting diagnostic inclination and uncertainty.\nResults: DL models achieved a mean AUC of 0.841 (range: 0.752-0.914) across external datasets, modestly lower than internal validation (mean AUC 0.948). On the subset of 175 cases, the mean AUC among the 11 pathologists was 0.785 (range: 0.709-0.844), while the ensemble model achieved 0.809. AI demonstrated high and consistent confidence in identifying MF, while pathologists exhibited greater diagnostic variability and uncertainty for MF cases, particularly compared to their high consensus on BIDs.\nConclusions: Our models demonstrated moderate-to-strong generalizability to distinguish eMF and BIDs, with performance comparable to practicing (dermato-)pathologists under controlled, H&amp;E slide-only conditions. Variability across centres suggests a need for calibration. Future work should explore multimodal integration and reader studies in realistic diagnostic settings to enhance reliability and clinical relevance.</em>",
+    "authors": ["Thom Doeleman"],
+    "abstract": "<p><strong>Introduction.</strong> Diagnosing early-stage mycosis fungoides (eMF; stages IA-IIA) remains challenging due to clinical and histopathological overlap with benign inflammatory dermatoses (BIDs), underscoring the potential for AI-assisted classification.</p><p><strong>Material and Methods.</strong> We trained deep-learning (DL) models using 2,315 H&amp;E-stained whole-slide images (WSIs) from the Leiden University Medical Centre, including 633 WSIs from 317 MF patients and 1,682 WSIs from 1,446 BID patients, diagnosed between Jan 2010 and July 2024. MF diagnoses were established by expert clinicopathological consensus. External validation used 615 WSIs from the Cutaneous Lymphoma International Digital Pathology (CLIDIPA) Registry, obtained from 5 European centres: Utrecht (n=243), Zurich (n=210), Würzburg (n=29), Turin (n=48), and Minden (n=85). To benchmark model performance, eleven (dermato-)pathologists independently reviewed a selected subset of 175 cases using a 5-point scale reflecting diagnostic inclination and uncertainty.</p><p><strong>Results.</strong> DL models achieved a mean AUC of 0.841 (range: 0.752-0.914) across external datasets, modestly lower than internal validation (mean AUC 0.948). On the subset of 175 cases, the mean AUC among the 11 pathologists was 0.785 (range: 0.709-0.844), while the ensemble model achieved 0.809. AI demonstrated high and consistent confidence in identifying MF, while pathologists exhibited greater diagnostic variability and uncertainty for MF cases, particularly compared to their high consensus on BIDs.</p><p><strong>Conclusions.</strong> Our models demonstrated moderate-to-strong generalizability to distinguish eMF and BIDs, with performance comparable to practicing (dermato-)pathologists under controlled, H&amp;E slide-only conditions. Variability across centres suggests a need for calibration. Future work should explore multimodal integration and reader studies in realistic diagnostic settings to enhance reliability and clinical relevance.</p>",
     "links": []
   },
   {
-    "title": "Similar Image Search for Salivary Gland Pathology",
-    "speakers": ["Jurre Weijer"],
-    "abstract": "<em>(Add 1-page abstract here.)</em>",
+    "title": "Content based image retrieval for Salivary Gland Pathology",
+    "authors": ["Jurre Weijer"],
+    "abstract": "<p><strong>Introduction.</strong> We aim to develop an image retrieval system for salivary gland tumors that retrieves morphologically related reference cases from a digital salivary gland tumor pathology archive, the SALV-Dataset Registry. As an initial step toward this goal, we performed a systematic benchmarking study of existing content-based image retrieval methods and pretrained foundation models to identify the most suitable approach for this setting.</p><figure><img src='media/CBIR_pipeline.png' alt='Overview of the similar image search pipeline' class='abstract-image'><figcaption>Overview of the benchmarking and retrieval pipeline.</figcaption></figure><p><strong>Material and Methods.</strong> A modular content-based image retrieval pipeline was implemented consisting of slide indexing, during which feature extraction followed by subset selection was performed. The indexed slides formed the searchable database, on which we performed a leave-one-patient-out search using a search method.</p><p><strong>Results.</strong> Preliminary benchmarking results show substantial variation in retrieval performance across methods and models.</p><p><strong>Conclusions.</strong> This ongoing benchmarking study shows that developing a similar image search system for salivary gland tumors requires careful evaluation of existing retrieval methods and feature representations.</p>",
     "links": []
   },
   {
-    "title": "Open Slot #1",
-    "speakers": ["TBD"],
-    "abstract": "<em>(Add 1-page abstract here.)</em>",
+    "title": "SALV-Dataset Registry: Building a Multicenter Foundation for AI in Salivary Gland Tumor Pathology",
+    "authors": ["Jurre Weijer"],
+    "abstract": "<p><strong>Introduction.</strong> Artificial intelligence in salivary gland tumor pathology remains limited, partly because the development of robust models requires large, well-curated datasets. As salivary gland tumors are rare and heterogeneous, such datasets can only be established through collaboration across multiple centers. We therefore initiated the SALV-Dataset Registry, a nationwide collaboration between 11 centers in the Netherlands aimed at collecting digitized salivary gland tumor data to support future AI development and clinicopathological research.</p><p><strong>Material and Methods.</strong> The SALV-Dataset Registry is being developed as a multicenter dataset combining whole-slide images with linked clinical and pathological data. Participating centers contribute salivary gland tumor cases, after which tumor-bearing hematoxylin and eosin slides are digitized and subjected to quality control. To improve label reliability, a structured digital revision workflow has been established in which cases are independently reviewed by three expert pathology teams, followed by consensus discussion of discordant or challenging cases. Additional immunohistochemistry, molecular analysis, and clinical information are incorporated where necessary. Final revised diagnoses are linked to the corresponding slides and metadata within a dedicated data management framework.</p><figure><img src='media/Salv-Registry_flow_chart.png' alt='Overview of the SALV-Dataset Registry workflow' class='abstract-image'><figcaption>Overview of the multicenter SALV-Dataset Registry workflow and revision process.</figcaption></figure><p><strong>Conclusions.</strong> The SALV-Dataset Registry provides a foundation for the development of artificial intelligence tools in salivary gland tumor pathology. Planned applications include similar image search, differential diagnosis support, and outcome prediction models integrating histology with clinical data. By combining nationwide multicenter data collection with structured expert revision, the project aims to establish a scalable resource for research and artificial intelligence development.</p>",
     "links": []
   },
   {
-    "title": "Open Slot #2",
-    "speakers": ["TBD"],
-    "abstract": "<em>(Add 1-page abstract here.)</em>",
+    "title": "Natural Language Processing in Pathology: Large Language Models for Data Extraction from Pathology Reports",
+    "authors": ["Tobias Martinot"],
+    "abstract": "<p>Pathology reports contain essential diagnostic information and are typically stored as semi-structured text. Due to the high volume of pathological examinations, all these reports accumulate in hospital databases and electronic health records (EHRs). Although these data hold substantial value for clinical research and quality improvement, their use is often limited because relevant variables must frequently be extracted manually. Existing tools for automated data extraction from electronic health records, such as rule-based systems, are often less effective for complex free-text reports that contain nuanced diagnostic language. Recent studies suggest that large language models (LLMs) are a promising alternative for structured information extraction from pathology reports. Notably, open-source models running locally have demonstrated performance comparable to proprietary cloud-based models while offering advantages in terms of data security and compliance with medical data governance.</p><p>In this ongoing research, we aim to develop a framework for evaluating open-source LLMs for automated data extraction from pathology reports. The framework is designed to run locally on high-performance computing infrastructure (SHARK HPC) and will support models from platforms such as Ollama and Hugging Face. It will provide both an inference mode for structured data extraction and a benchmark mode for systematic model evaluation against annotated ground-truth datasets. Performance metrics, including weighted F1-scores, will be calculated to assess extraction accuracy across variables. Additionally, the framework will include visualization tools to highlight text segments used by models during classification, supporting interpretability and explainability. This work aims to facilitate standardized information extraction from pathology reports and enable large-scale linkage between textual diagnostic information and pathology imaging data for future research applications.</p>",
     "links": []
   }
 ]

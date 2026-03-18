@@ -61,3 +61,28 @@ p{margin:0 0 12px}
   body{color:#000}
   .section{page-break-inside:avoid}
 }
+
+.project-abstract p {
+  margin: 0 0 12px;
+}
+
+.project-abstract img,
+.abstract-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 12px auto;
+  border-radius: 12px;
+}
+
+.project-abstract figure {
+  margin: 16px 0;
+}
+
+.project-abstract figcaption {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 6px;
+  text-align: center;
+}

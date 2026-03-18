@@ -70,19 +70,25 @@ function renderSpeakers(speakers){
 }
 
 // Projects
+// Projects
 function renderProjects(projects){
   const root = document.getElementById('projects-list');
-  root.innerHTML='';
+  root.innerHTML = '';
+
   for(const p of projects){
-    const card = el('div','card');
-    card.appendChild(el('h4','', p.title));
-    const spk = (p.speakers && p.speakers.length) ? p.speakers.join(', ') : '—';
-    card.appendChild(el('div','meta', `${spk}`));
-    card.appendChild(el('p','', p.abstract || '<em>Abstract coming soon.</em>'));
+    const card = el('div', 'card');
+    card.appendChild(el('h4', '', p.title));
+
+    const authors = (p.authors && p.authors.length) ? p.authors.join(', ') : '—';
+    card.appendChild(el('div', 'meta', authors));
+
+    const abstract = el('div', 'project-abstract', p.abstract || '<em>Abstract coming soon.</em>');
+    card.appendChild(abstract);
+
     if(p.links && p.links.length){
-      const tags = el('div','tags');
+      const tags = el('div', 'tags');
       for(const link of p.links){
-        const a = el('a','tag');
+        const a = el('a', 'tag');
         a.href = link.url;
         a.target = '_blank';
         a.rel = 'noopener';
@@ -91,6 +97,7 @@ function renderProjects(projects){
       }
       card.appendChild(tags);
     }
+
     root.appendChild(card);
   }
 }
