@@ -12,12 +12,6 @@
     "links": []
   },
   {
-    "title": "BanffNet",
-    "authors": ["Giorgio Buzzanca"],
-    "abstract": "<em>(Add 1-page abstract here.)</em>",
-    "links": []
-  },
-  {
     "title": "MIMIC: Multiple Instance Learning for Identification of Mycosis Fungoides in Cutaneous Biopsies",
     "authors": ["Thom Doeleman", "Siemen Brussee"],
 "abstract": "<p><strong>Introduction.</strong> Diagnosing <em>Mycosis Fungoides</em> (MF), a subtype of cutaneous T-cell lymphoma (CTCL), remains challenging due to substantial histopathological overlap with inflammatory dermatoses, often leading to misclassification and suboptimal treatment. This study evaluates a weakly supervised AI approach for MF identification.</p><p><strong>Material and Methods.</strong> We developed MIMIC, a multiple instance learning (MIL) model trained on approximately 3,000 H&amp;E-stained whole-slide images from Leiden University Medical Center and University Medical Center Utrecht. Slides were labeled as MF or non-MF, with the latter including both MF mimickers and other inflammatory dermatoses. External validation was conducted on 417 slides from four independent European cohorts (Minden, Turin, Würzburg, Zurich). Additionally, twelve pathologists independently assessed a subset of cases. Model performance was compared to human readers using a graded response model.</p> <figure><img src='media/mimic.png' alt='MIMIC Overview' class='abstract-image'><figcaption>Overview of MIMIC.</figcaption></figure> <p><strong>Results.</strong> MIMIC demonstrated strong generalization with a macro-averaged AUC of 0.909 &plusmn; 0.053 across external cohorts. In comparison to pathologists, MIMIC achieved a significantly higher AUC (0.952 &plusmn; 0.012) than the mean pathologist performance (0.814 &plusmn; 0.077). In a clinical simulation study including all MF-suspected cases over two years at UMCU, the model achieved an AUC of 0.832 for distinguishing CTCL from non-CTCL cases.</p><p><strong>Conclusions.</strong> MIMIC demonstrates robust and generalizable performance for MF classification, outperforming pathologists under controlled conditions and maintaining strong performance in real-world clinical scenarios. These findings support its potential as a diagnostic decision support tool in dermatopathology.</p>",
